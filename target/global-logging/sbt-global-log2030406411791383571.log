@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\falle\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\falle\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Amazon.com Inc. Java 11.0.13)
+[debug]       Load.loadUnit: plugins took 98.9564ms
+[debug]       Load.loadUnit: defsScala took 0.2471ms
+[debug] [Loading] Scanning directory C:\Users\falle\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\falle\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 13.7607 ms
+[debug]           Load.resolveProject(global-plugins) took 49.1238ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\falle\.sbt\1.0\plugins, plugins: List(<none>))) took 88.2061ms
+[debug] [Loading] Done in C:\Users\falle\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 120.0027ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2038ms
+[debug]     Load.loadUnit(file:/C:/Users/falle/.sbt/1.0/plugins/, ...) took 226.9948ms
+[debug]   Load.apply: load took 458.7554ms
+[debug]   Load.apply: resolveProjects took 5.7888ms
+[debug]   Load.apply: finalTransforms took 56.083399ms
+[debug]   Load.apply: config.delegates took 8.4208ms
+[debug]   Load.apply: Def.make(settings)... took 633.069599ms
+[debug]   Load.apply: structureIndex took 133.019601ms
+[debug]   Load.apply: mkStreams took 4.8861ms
+[info] loading global plugins from C:\Users\falle\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3901.4555ms
+[debug]           Load.loadUnit: plugins took 18.4291ms
+[debug]           Load.loadUnit: defsScala took 0.0044ms
+[debug] [Loading] Scanning directory C:\Users\falle\Documents\RevatureProjects\sparkDemo\project
+[debug]             Load.loadUnit: mkEval took 6.482001ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\falle\Documents\RevatureProjects\sparkDemo\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.485901 ms
+[info] loading settings for project sparkdemo-build from idea.sbt ...
+[debug]               Load.resolveProject(sparkdemo-build) took 4.2251ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sparkdemo-build, base: C:\Users\falle\Documents\RevatureProjects\sparkDemo\project, plugins: List(<none>))) took 6.185499ms
+[debug] [Loading] Done in C:\Users\falle\Documents\RevatureProjects\sparkDemo\project, returning: (sparkdemo-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 145.034801ms
+[debug]           Load.loadUnit: cleanEvalClasses took 3.485999ms
+[debug]         Load.loadUnit(file:/C:/Users/falle/Documents/RevatureProjects/sparkDemo/project/, ...) took 167.8372ms
+[debug]       Load.apply: load took 169.131201ms
+[debug]       Load.apply: resolveProjects took 0.1141ms
+[debug]       Load.apply: finalTransforms took 6.1616ms
+[debug]       Load.apply: config.delegates took 0.4016ms
+[debug]       Load.apply: Def.make(settings)... took 90.9165ms
+[debug]       Load.apply: structureIndex took 30.4651ms
+[debug]       Load.apply: mkStreams took 0.0031ms
+[info] loading project definition from C:\Users\falle\Documents\RevatureProjects\sparkDemo\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 2683.8705ms
+[debug]     Load.loadUnit: defsScala took 0.0038ms
+[debug] [Loading] Scanning directory C:\Users\falle\Documents\RevatureProjects\sparkDemo
+[debug]       Load.loadUnit: mkEval took 0.2981ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\falle\Documents\RevatureProjects\sparkDemo, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.8508 ms
+[info] loading settings for project sparkdemo from build.sbt ...
+[debug]         Load.resolveProject(sparkdemo) took 56.4158ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id sparkdemo, base: C:\Users\falle\Documents\RevatureProjects\sparkDemo, plugins: List(<none>))) took 61.7743ms
+[debug] [Loading] Done in C:\Users\falle\Documents\RevatureProjects\sparkDemo, returning: (sparkdemo)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2727.987601ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.5186ms
+[debug]   Load.loadUnit(file:/C:/Users/falle/Documents/RevatureProjects/sparkDemo/, ...) took 5422.019501ms
+[debug] Load.apply: load took 5423.797299ms
+[debug] Load.apply: resolveProjects took 0.176601ms
+[debug] Load.apply: finalTransforms took 27.072701ms
+[debug] Load.apply: config.delegates took 0.3216ms
+[debug] Load.apply: Def.make(settings)... took 96.022699ms
+[debug] Load.apply: structureIndex took 24.7904ms
+[debug] Load.apply: mkStreams took 0.0029ms
+[info] set current project to sparkDemo (in build file:/C:/Users/falle/Documents/RevatureProjects/sparkDemo/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 54942 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 54942, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to sparkDemo (in build file:/C:/Users/falle/Documents/RevatureProjects/sparkDemo/)
+[debug] > Exec(idea-shell, None, None)

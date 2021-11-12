@@ -1,0 +1,8 @@
+[debug] > Exec(spark, None, None)
+[error] Not a valid command: spark (similar: skipBanner)
+[error] Not a valid project ID: spark (similar: sparkdemo)
+[error] Expected ':'
+[error] Not a valid key: spark (similar: package, skip, fork)
+[error] spark
+[error]      ^
+[debug] > Exec(idea-shell, None, None)
