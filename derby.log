@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Thu Nov 11 17:55:01 PST 2021:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017d-11da-f3fd-000017be7e60 
+Fri Nov 12 09:50:13 PST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017d-1545-747b-000017c44f20 
 on database directory C:\Users\falle\Documents\RevatureProjects\sparkDemo\metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@16f65612 
 Loaded from file:/C:/Users/falle/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Amazon.com Inc.

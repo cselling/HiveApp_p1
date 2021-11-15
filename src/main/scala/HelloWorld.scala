@@ -85,7 +85,7 @@ object HelloWorld {
             print("Query: select")
             val inLine = StdIn.readLine()
             try {
-              spark.sql(s"select$inLine").show(100,false)
+              spark.sql(s"select$inLine").show(2000,false)
             } catch {
               case x: org.apache.spark.sql.AnalysisException => println("incorrect query") // in case query is wrong
             }
