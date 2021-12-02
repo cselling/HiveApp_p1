@@ -56,7 +56,7 @@ object HelloWorld {
     spark.sparkContext.setLogLevel("ERROR")
     import spark.implicits._
 
-
+    dataInit(spark)
     while (running) { // flag set at the top
       print("Login: ")
       val inName = StdIn.readLine()
